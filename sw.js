@@ -3,7 +3,7 @@ self.addEventListener('install', e => {
     caches.open('pwa-assets').then(cache => 
       {
         return cache.addAll([
-          './index.html',
+          './indexx.html',
           './OrbitControls.js',
           './three.min.js'
         ])
